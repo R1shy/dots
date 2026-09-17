@@ -1,0 +1,6 @@
+2026/09/15-16:46:52.119 261f Reusing MANIFEST /home/rishy/.config/obsidian/IndexedDB/app_obsidian.md_0.indexeddb.leveldb/MANIFEST-000001
+2026/09/15-16:46:52.120 261f Recovering log #3
+2026/09/15-16:46:52.129 261f Reusing old log /home/rishy/.config/obsidian/IndexedDB/app_obsidian.md_0.indexeddb.leveldb/000003.log 
+2026/09/15-19:09:04.598 2621 Level-0 table #5: started
+2026/09/15-19:09:04.663 2621 Level-0 table #5: 1218016 bytes OK
+2026/09/15-19:09:04.669 2621 Delete type=0 #3

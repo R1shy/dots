@@ -1,0 +1,38 @@
+imports = ["/home/rishy/.config/wayle/themes/catppuccin/catppuccin-frappe.toml"]
+
+[bar]
+scale = 0.75
+
+[[bar.layout]]
+monitor = "*"
+left = ["window-title"]
+right = [
+"bluetooth",
+"network",
+"media",
+"notifications",
+]
+
+[modules.clock]
+format = "%I:%M %p"
+icon-show = false
+
+[modules.bluetooth]
+label-show = false
+
+[modules.network]
+label-show = false
+
+[modules.media]
+label-show = false
+
+[modules.window-title]
+icon-show = false
+
+
+[modules.notifications]
+label-show = false
+blocklist = ["starship"]
+popup-duration = 2500
+
+
