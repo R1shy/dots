@@ -1,0 +1,11 @@
+<application>
+  <component name="Trusted.Paths">
+    <option name="TRUSTED_PROJECT_PATHS">
+      <map>
+        <entry key="$USER_HOME$/Documents/theatricalCompat" value="true" />
+        <entry key="$USER_HOME$/IdeaProjects/theatricalshadercompat" value="true" />
+        <entry key="/tmp/spotlight_mod-1.0-SNAPSHOT.jar2192756346653205840" value="true" />
+      </map>
+    </option>
+  </component>
+</application>

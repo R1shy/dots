@@ -52,6 +52,14 @@ hl.bind(mod .. " + 4", hl.dsp.focus({workspace = 4}) )
 hl.bind(mod .. " + 5", hl.dsp.focus({workspace = 5}) )
 hl.bind(mod .. " + 6", hl.dsp.focus({workspace = 6}) )
 hl.bind(mod .. " + 7", hl.dsp.focus({workspace = 7}) )
+
+for i = 1, 10 do
+    local key = i % 10
+    hl.bind(mod .. " + SHIFT + " .. key, function()
+        hl.dispatch(hl.dsp.window.move({ workspace = tostring(i), follow = false }))
+    end)
+end
+
 hl.bind(mod .. " + L", hl.dsp.exec_cmd("hyprlock"))
 hl.bind(mod .. " + C", hl.dsp.window.float() )
 hl.bind(mod .. " + mouse:272", hl.dsp.window.drag(), { mouse = true })

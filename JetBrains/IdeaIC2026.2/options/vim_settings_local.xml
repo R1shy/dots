@@ -1,0 +1,51 @@
+<application>
+  <component name="ModeWidgetSettings" migrated="true" />
+  <component name="VimJumpsSettings">
+    <project id="2hj4ss4tmdr381i2r7c6">
+      <jump line="0" column="0" filename="$USER_HOME$/IdeaProjects/theatricalshadercompat/src/main/java/net/rishy/theatricalshadercompat/Theatricalshadercompat.java" protocol="file" />
+    </project>
+    <project id="ma0bade7h6e6g6s2lfn8">
+      <jump line="0" column="0" filename="$USER_HOME$/Documents/theatricalCompat/src/main/java/net/rishy/theatricalcompat/Theatricalcompat.java" protocol="file" />
+      <jump line="0" column="0" filename="$USER_HOME$/Documents/theatricalCompat/src/client/java/net/rishy/theatricalcompat/client/TheatricalcompatDataGenerator.java" protocol="file" />
+      <jump line="0" column="0" filename="$USER_HOME$/Documents/theatricalCompat/build.gradle" protocol="file" />
+    </project>
+  </component>
+  <component name="VimMarksSettings">
+    <globalmarks />
+    <localmarks>
+      <file name="$USER_HOME$/Documents/theatricalCompat/src/main/java/net/rishy/theatricalcompat/Theatricalcompat.java" timestamp="1790036387521">
+        <mark key="'" line="0" column="0" />
+      </file>
+      <file name="$USER_HOME$/Documents/theatricalCompat/build.gradle" timestamp="1790036427233">
+        <mark key="'" line="0" column="0" />
+        <mark key="[" line="59" column="25" />
+        <mark key="]" line="59" column="26" />
+        <mark key="^" line="59" column="26" />
+        <mark key="." line="59" column="25" />
+      </file>
+      <file name="$USER_HOME$/IdeaProjects/theatricalshadercompat/src/main/java/net/rishy/theatricalshadercompat/Theatricalshadercompat.java" timestamp="1790036315890">
+        <mark key="'" line="0" column="0" />
+      </file>
+      <file name="$USER_HOME$/Documents/theatricalCompat/src/client/java/net/rishy/theatricalcompat/client/TheatricalcompatDataGenerator.java" timestamp="1790036412107">
+        <mark key="'" line="0" column="0" />
+      </file>
+    </localmarks>
+  </component>
+  <component name="VimRegisterSettings">
+    <registers>
+      <register name="." type="CHARACTER_WISE">
+        <text encoding="base64">MjU=</text>
+      </register>
+    </registers>
+  </component>
+  <component name="VimSearchSettings">
+    <search>
+      <last-offset encoding="base64" />
+      <last-dir encoding="base64">MQ==</last-dir>
+      <show-last encoding="base64">ZmFsc2U=</show-last>
+    </search>
+  </component>
+  <component name="VimVariables">
+    <vim-variables />
+  </component>
+</application>

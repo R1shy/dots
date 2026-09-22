@@ -1,0 +1,87 @@
+{
+    "telemetry.sqmId": "",
+    "telemetry.machineId": "332abab7c9ca616dba69b33898f7cb657d39518b5302f2fe11e69e1b164eeb43",
+    "telemetry.devDeviceId": "d77e7b71-d030-426b-8565-a0658e970de1",
+    "backupWorkspaces": {
+        "workspaces": [],
+        "folders": [
+            {
+                "folderUri": "file:///home/rishy/.local/share/PrismLauncher/instances/Hadestown%20MODRINTH%201.0.0/minecraft/schematics"
+            }
+        ],
+        "emptyWindows": []
+    },
+    "windowControlHeight": 35,
+    "profileAssociations": {
+        "workspaces": {
+            "file:///home/rishy/.local/share/PrismLauncher/instances/Hadestown%20MODRINTH%201.0.0/minecraft/shaderpacks": "__default__profile__",
+            "file:///home/rishy/.local/share/PrismLauncher/instances/Hadestown%20MODRINTH%201.0.0/minecraft/schematics": "__default__profile__"
+        },
+        "emptyWindows": {}
+    },
+    "theme": "vs-dark",
+    "themeBackground": "#121314",
+    "windowSplash": {
+        "zoomLevel": 0,
+        "baseTheme": "vs-dark",
+        "colorInfo": {
+            "foreground": "#bfbfbf",
+            "background": "#121314",
+            "editorBackground": "#121314",
+            "titleBarBackground": "#191a1b",
+            "titleBarBorder": "#2a2b2c",
+            "activityBarBackground": "#191a1b",
+            "activityBarBorder": "#2a2b2c",
+            "sideBarBackground": "#191a1b",
+            "sideBarBorder": "#2a2b2c",
+            "panelBackground": "#191a1b",
+            "editorGroupBorder": "rgba(255, 255, 255, 0.09)",
+            "agentsPanelBackground": "#191a1b",
+            "agentsPanelBorder": "#2a2b2c",
+            "statusBarBackground": "#191a1b",
+            "statusBarBorder": "#2a2b2c",
+            "statusBarNoFolderBackground": "#191a1b"
+        },
+        "layoutInfo": {
+            "sideBarSide": "left",
+            "editorPartMinWidth": 220,
+            "titleBarHeight": 35,
+            "activityBarWidth": 48,
+            "sideBarWidth": 234,
+            "auxiliaryBarWidth": 0,
+            "statusBarHeight": 22,
+            "windowBorder": false,
+            "modernUI": false
+        }
+    },
+    "windowSplashWorkspaceOverride": {
+        "layoutInfo": {
+            "sideBarWidth": 234,
+            "auxiliaryBarWidth": 234,
+            "workspaces": {
+                "bb59c7eaa96ead5da4c420652d05fa2a": {
+                    "sideBarVisible": true,
+                    "auxiliaryBarVisible": true
+                },
+                "3646db3368c3bdae2c6c611febb7eb2e": {
+                    "sideBarVisible": true,
+                    "auxiliaryBarVisible": false
+                }
+            }
+        }
+    },
+    "windowsState": {
+        "lastActiveWindow": {
+            "folder": "file:///home/rishy/.local/share/PrismLauncher/instances/Hadestown%20MODRINTH%201.0.0/minecraft/schematics",
+            "backupPath": "/home/rishy/.config/VSCodium/Backups/3b949f982d526016116b09bdef885be5",
+            "uiState": {
+                "mode": 0,
+                "x": 16,
+                "y": 10,
+                "width": 940,
+                "height": 562
+            }
+        },
+        "openedWindows": []
+    }
+}
