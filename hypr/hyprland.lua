@@ -47,7 +47,7 @@ hl.window_rule({
 	no_shadow = true,
 	rounding = 10
 })
-hl.bind("XF86PowerOff", hl.dsp.exec_cmd("hyprlock"))
+hl.bind("XF86PowerOff", hl.dsp.exit())
 hl.bind(mod .. " + Q",hl.dsp.window.close())
 hl.bind(mod .. " + TAB", hl.dsp.exec_cmd(term))
 hl.bind(mod .. " + B", hl.dsp.exec_cmd(browser))
@@ -82,4 +82,3 @@ hl.bind(mod .. " + L", hl.dsp.exec_cmd("hyprlock"))
 hl.bind(mod .. " + C", hl.dsp.window.float() )
 hl.bind(mod .. " + mouse:272", hl.dsp.window.drag(), { mouse = true })
 hl.bind(mod .. " + mouse:273", hl.dsp.window.resize(), { mouse = true })
-hl.bind(mod .. " + E", hl.dsp.exit())
