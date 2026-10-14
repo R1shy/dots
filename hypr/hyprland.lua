@@ -1,10 +1,27 @@
-
 local mod = "SUPER"
 local term = "kitty"
 local browser = "firefox"
+
+
+hl.config({
+    input = {
+        kb_layout = "us",
+        kb_model = "apple",               -- Tells XKB to handle it as an Apple keyboard
+        kb_variant = "mac",               -- Ensures standard Mac layouts are observed
+        kb_options = "compose:rwin",      -- Sets the RIGHT Command Key as Compose
+    },
+})
+
 hl.on("hyprland.start", function()
-hl.notification.create({text = "welcome to hyprland version: " .. hl.version(), duration = 10000, color = "0xFF0000", icon = 1, font_size = 10, timeout = 10})
+hl.notification.create({text = "welcome to hyprland version: " .. hl.version(),
+duration = 10000,
+color = "0xFF0000",
+icon = 1,
+font_size = 10,
+timeout = 10})
 hl.exec_cmd("awww-daemon")
+
+
 hl.exec_cmd("wayle shell")
 hl.dsp.exec_cmd("hyprcursor setcursor aidwata 24")
 end
@@ -30,7 +47,7 @@ hl.window_rule({
 	no_shadow = true,
 	rounding = 10
 })
-
+hl.bind("XF86PowerOff", hl.dsp.exec_cmd("hyprlock"))
 hl.bind(mod .. " + Q",hl.dsp.window.close())
 hl.bind(mod .. " + TAB", hl.dsp.exec_cmd(term))
 hl.bind(mod .. " + B", hl.dsp.exec_cmd(browser))
@@ -38,9 +55,10 @@ hl.bind(mod .. " + SHIFT + S", hl.dsp.exec_cmd("steam"))
 hl.bind(mod .. " + F", hl.dsp.window.fullscreen())
 hl.bind(mod .. " + S", hl.dsp.exec_cmd("grim"))
 hl.bind(mod .. " + GRAVE", hl.dsp.exec_cmd("rofi -show drun"))
+hl.bind(mod .. " + SPACE", hl.dsp.exec_cmd("rofi -show drun"))
 
-hl.bind("XF86MonBrightnessUp", hl.dsp.exec_cmd("brightnessctl s 9600+"))
-hl.bind("XF86MonBrightnessDown", hl.dsp.exec_cmd("brightnessctl s 9600-"))
+hl.bind("XF86MonBrightnessUp", hl.dsp.exec_cmd("brightnessctl s 5%+"))
+hl.bind("XF86MonBrightnessDown", hl.dsp.exec_cmd("brightnessctl s 5%-"))
 hl.bind("XF86AudioRaiseVolume", hl.dsp.exec_cmd("pactl set-sink-volume 0 +5%"))
 hl.bind("XF86AudioLowerVolume", hl.dsp.exec_cmd("pactl set-sink-volume 0 -5%"))
 hl.bind("XF86AudioMute", hl.dsp.exec_cmd("pactl set-sink-mute 0 toggle"))

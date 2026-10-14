@@ -9,8 +9,9 @@ left = ["window-title"]
 right = [
 "bluetooth",
 "network",
+"brightness",
+"battery",
 "media",
-"notifications",
 ]
 
 [modules.clock]
@@ -30,9 +31,8 @@ label-show = false
 icon-show = false
 
 
-[modules.notifications]
+[modules.brightness]
 label-show = false
-blocklist = ["starship"]
-popup-duration = 2500
 
-
+[modules.battery]
+label-show = false
