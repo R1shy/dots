@@ -12,20 +12,9 @@ hl.config({
     },
 })
 
-hl.on("hyprland.start", function()
-hl.notification.create({text = "welcome to hyprland version: " .. hl.version(),
-duration = 10000,
-color = "0xFF0000",
-icon = 1,
-font_size = 10,
-timeout = 10})
 hl.exec_cmd("awww-daemon")
-
-
 hl.exec_cmd("wayle shell")
 hl.dsp.exec_cmd("hyprcursor setcursor aidwata 24")
-end
-)
 
 
 hl.window_rule({
